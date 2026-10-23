@@ -1,0 +1,12 @@
+# CMake / Ninja 构建目录
+/build/
+/build-*/
+/cmake-build-*/
+
+# Python 临时文件（如果以后使用 Python）
+__pycache__/
+*.pyc
+
+# 编辑器临时文件
+*.swp
+*~

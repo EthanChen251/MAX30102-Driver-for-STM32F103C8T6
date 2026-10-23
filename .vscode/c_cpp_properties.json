@@ -1,0 +1,21 @@
+
+{
+    "configurations": [
+        {
+            "name": "STM32F103C8T6",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/Core",
+                "${workspaceFolder}/third_party/CMSIS/CM3/CoreSupport",
+                "${workspaceFolder}/third_party/CMSIS/CM3/DeviceSupport/ST/STM32F10x",
+                "${workspaceFolder}/third_party/STM32F10x_StdPeriph_Driver/inc"
+            ],
+            "defines": [
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER"
+            ],
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}
